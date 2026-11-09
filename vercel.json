@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/((?!api/|data/|images/|resultats/|assets/).*)", "destination": "/index.html" }]
+}

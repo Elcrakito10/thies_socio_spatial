@@ -1,0 +1,20 @@
+/* ===== Grands ecrans / zoom navigateur 80 % : Accueil et Donnees occupent toute la largeur ===== */
+@media (min-width:1700px){
+  /* Accueil */
+  .hero-content{width:min(2400px,92%)}
+  .hero-kicker{font-size:clamp(9px,.52vw,13px)}
+  .hero-title{font-size:clamp(48px,4.35vw,118px);letter-spacing:-.045em}
+  .hero-description{max-width:clamp(600px,34vw,820px);font-size:clamp(13px,.82vw,20px)}
+  .primary-button{height:clamp(48px,2.9vw,68px);padding:0 clamp(20px,1.3vw,32px);font-size:clamp(11px,.68vw,16px)}
+  .hero-stats{grid-template-columns:repeat(4,clamp(155px,9.4vw,250px));gap:clamp(12px,.8vw,20px);margin-top:clamp(30px,2vw,48px)}
+  .stat-card{min-height:clamp(112px,7vw,180px);padding:clamp(14px,.9vw,24px)}
+  .stat-icon svg{width:clamp(21px,1.3vw,32px);height:clamp(21px,1.3vw,32px)}
+  .stat-card strong{font-size:clamp(24px,1.6vw,42px);margin-top:clamp(12px,.8vw,20px)}
+  .stat-card small{font-size:clamp(9px,.58vw,14px)}
+  .home-intro,.home-method,.home-cta{padding-left:6%;padding-right:6%}
+  /* Donnees */
+  .dh-hero-in,.dh-grid,.dh-updates,.dn-in,.dn-hero-in{max-width:2200px}
+  .dh-grid{grid-template-columns:clamp(280px,15vw,380px) minmax(0,1.6fr) minmax(0,1fr)}
+  .dh-hero p{max-width:clamp(760px,45vw,1100px);font-size:clamp(15.5px,.92vw,21px)}
+  .dh-hero h1{font-size:clamp(40px,3.2vw,84px)}
+}

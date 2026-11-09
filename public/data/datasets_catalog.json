@@ -1,0 +1,431 @@
+[
+ {
+  "id": "quartiers",
+  "name": "Quartiers de Thiès — indicateurs (65 quartiers)",
+  "kind": "polygones",
+  "geometry": "MultiPolygon",
+  "scale": "Quartier",
+  "count": 65,
+  "file": "/data/quartiers_thies.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 158877,
+  "columns": [
+   "quartier_id",
+   "nom",
+   "commune",
+   "surface_km2",
+   "population",
+   "menages",
+   "hommes",
+   "femmes",
+   "nb_sante",
+   "dens_sante",
+   "nb_education",
+   "dens_education",
+   "nb_commerce",
+   "dens_commerce",
+   "nb_sport",
+   "dens_sport",
+   "nb_transport",
+   "dens_transport",
+   "nb_banque",
+   "dens_banque",
+   "nb_assurance",
+   "dens_assurance",
+   "nb_religion",
+   "dens_religion",
+   "acc_sante",
+   "acc_education",
+   "acc_commerce",
+   "acc_sport",
+   "acc_transport",
+   "acc_banque",
+   "acc_assurance",
+   "acc_religion",
+   "acc_globale",
+   "acc_routiere_dist_m",
+   "acc_routiere_indice",
+   "ind_instruction",
+   "ind_instruction_0_1",
+   "ind_niveau_vie",
+   "ind_niveau_vie_0_1"
+  ],
+  "description": "Limites des 68 quartiers avec population, densités d'équipements (8 familles), accessibilités moyennées, indices ACP d'instruction et de niveau de vie.",
+  "source": "Limites administratives et couches thématiques de l'application ; population RGPH-5 (ANSD)",
+  "year": "2023 (population)",
+  "status": "Intégré",
+  "indicators": [
+   "Population",
+   "Densité par famille (8)",
+   "Accessibilité par quartier",
+   "IND_INSTRUCTION_0_1",
+   "IND_NIVEAU_VIE_0_1"
+  ],
+  "notes": "La densité Religion n'était pas fournie : elle est calculée comme nb_religion / surface_km2, selon la même définition que les 7 autres densités. Population : appariement RGPH-5 ↔ quartiers appliqué pour 67 localités sur 70 ; voir la table des localités."
+ },
+ {
+  "id": "communes",
+  "name": "Communes urbaines",
+  "kind": "polygones",
+  "geometry": "MultiPolygon",
+  "scale": "Commune",
+  "count": 3,
+  "file": "/data/communes_thies.geojson",
+  "formats": [
+   "GeoJSON",
+   "JSON"
+  ],
+  "bytes": 36211,
+  "columns": [
+   "CAV",
+   "CCRCA",
+   "TOTAL",
+   "commune",
+   "commune_display"
+  ],
+  "description": "Limites des trois communes d'arrondissement : Thiès Nord, Thiès Est, Thiès Ouest.",
+  "source": "Limites communales Thiès",
+  "year": "2008 (création des communes)",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "grille",
+  "name": "Grille spatiale 200 m — accessibilités",
+  "kind": "polygones",
+  "geometry": "MultiPolygon",
+  "scale": "Cellule de grille 200 m",
+  "count": 2170,
+  "file": "/data/grille_200m.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 1390394,
+  "columns": [
+   "cell_id",
+   "row_index",
+   "col_index",
+   "hub_name",
+   "hub_dist_m",
+   "acc_routiere_dist_m",
+   "acc_routiere_indice",
+   "acc_globale",
+   "acc_sante",
+   "acc_sport",
+   "acc_education",
+   "acc_transport",
+   "acc_banque",
+   "acc_commerce",
+   "acc_assurance",
+   "acc_religion"
+  ],
+  "description": "Grille de 2 170 cellules portant l'accessibilité routière et les 8 accessibilités par type d'équipement, plus l'accessibilité globale.",
+  "source": "Calculs d'accessibilité fournis (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": [
+   "Accessibilité routière",
+   "Accessibilité par type (8)",
+   "Accessibilité globale"
+  ]
+ },
+ {
+  "id": "reseau",
+  "name": "Réseau routier",
+  "kind": "lignes",
+  "geometry": "LineString",
+  "scale": "Tronçon",
+  "count": 4658,
+  "file": "/data/reseau_routier.geojson",
+  "formats": [
+   "GeoJSON",
+   "JSON"
+  ],
+  "bytes": 1331559,
+  "columns": [
+   "nom",
+   "type_voie",
+   "revetement"
+  ],
+  "description": "Tronçons routiers (version nettoyée, tronçons simples) avec nom, type de voie et revêtement.",
+  "source": "OpenStreetMap",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_sante",
+  "name": "Équipements — Santé",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 158,
+  "file": "/data/infrastructures/infra_sante.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 48646,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Santé » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_education",
+  "name": "Équipements — Éducation",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 555,
+  "file": "/data/infrastructures/infra_education.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 171195,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Éducation » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_commerce",
+  "name": "Équipements — Commerce",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 4677,
+  "file": "/data/infrastructures/infra_commerce.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 1364144,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Commerce » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_sport",
+  "name": "Équipements — Sport",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 72,
+  "file": "/data/infrastructures/infra_sport.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 21439,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Sport » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_religion",
+  "name": "Équipements — Religion",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 369,
+  "file": "/data/infrastructures/infra_religion.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 105401,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Religion » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_transport",
+  "name": "Équipements — Transport",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 45,
+  "file": "/data/infrastructures/infra_transport.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 13261,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Transport » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_banque",
+  "name": "Équipements — Banque",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 21,
+  "file": "/data/infrastructures/infra_banque.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 5859,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Banque » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "infra_assurance",
+  "name": "Équipements — Assurance",
+  "kind": "points",
+  "geometry": "Point",
+  "scale": "Équipement",
+  "count": 56,
+  "file": "/data/infrastructures/infra_assurance.geojson",
+  "formats": [
+   "GeoJSON",
+   "CSV",
+   "JSON"
+  ],
+  "bytes": 17492,
+  "columns": [
+   "famille",
+   "nom",
+   "type",
+   "sous_type",
+   "quartier",
+   "commune",
+   "region",
+   "milieu"
+  ],
+  "description": "Localisation des équipements de la famille « Assurance » avec nom, type, quartier et commune.",
+  "source": "Couches thématiques équipements (données application)",
+  "year": "Non précisée",
+  "status": "Intégré",
+  "indicators": []
+ },
+ {
+  "id": "census_localites",
+  "name": "RGPH-5 — localités recensées (appariement)",
+  "kind": "table",
+  "geometry": "—",
+  "scale": "Localité",
+  "count": 70,
+  "file": "/data/census_localites.json",
+  "formats": [
+   "JSON"
+  ],
+  "bytes": 12896,
+  "columns": [
+   "localite",
+   "commune",
+   "menages",
+   "population",
+   "statut",
+   "polygone",
+   "pop_polygone",
+   "polygone_commune"
+  ],
+  "description": "Les 70 localités du recensement RGPH-5 (2023) avec le statut de leur appariement aux 68 polygones de quartiers.",
+  "source": "ANSD — RGPH-5 (2023) ; appariement établi par le projet",
+  "year": "2023",
+  "status": "Intégré",
+  "indicators": [],
+  "notes": "Appariements appliqués : variantes de numérotation (1/I, 2/II), unités regroupées en un polygone, et cas confirmés par les auteurs (Dioung et Fahu 1 sont en commune de Thiès Ouest ; « Thialy (Grand Thialy) » est le quartier « Thialy (Petit Thialy) »). Restent 3 localités sans polygone."
+ }
+]

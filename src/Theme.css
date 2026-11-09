@@ -1,0 +1,215 @@
+/* =========================================================
+   THÈMES CLAIR / SOMBRE — surcharges par page
+   Chaque page a un thème d'origine ; ce fichier fournit l'autre.
+   (.app.dark / .app.light sont posés par le bouton lune/soleil)
+   ========================================================= */
+
+/* ---------- ACCUEIL — mode sombre : chaque bloc garde sa teinte propre ---------- */
+.app.dark .hx{color:#dcebf3}
+.app.dark .hx-heading h2{color:#fff}
+.app.dark .hx-heading h2 span{background:linear-gradient(100deg,var(--ac,#22d3ee),var(--ac2,#818cf8));-webkit-background-clip:text;background-clip:text;color:transparent}
+.app.dark .hx .pg-eyebrow{color:var(--ac,#22d3ee)}
+.app.dark .hx .pg-eyebrow i{background:var(--ac,#22d3ee)}
+.app.dark .hx-card-light{background:#0d2331;border-color:rgba(120,190,215,.16);box-shadow:none}
+
+.app.dark .hx-situation{--ac:#38bdf8;--ac2:#22d3ee;background:
+  linear-gradient(rgba(56,189,248,.07) 1px,transparent 1px) 0 0/48px 48px,
+  linear-gradient(90deg,rgba(56,189,248,.07) 1px,transparent 1px) 0 0/48px 48px,
+  linear-gradient(160deg,#07203a 0%,#0a2a44 55%,#06263a 100%)}
+.app.dark .hx-sit-map{background:#0d2331;border-color:rgba(56,189,248,.25);box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.app.dark .hx-sit-map figcaption{color:#8fb0c4}
+.app.dark .hx-sit-lead{color:#b4cbd9}
+.app.dark .hx-sit-commune{background:#0d2331;border-color:rgba(120,190,215,.16);border-left-color:var(--c);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.app.dark .hx-sit-commune h3{color:#fff}
+.app.dark .hx-sit-commune span{color:#8fb0c4}
+.app.dark .hx-sit-commune i{background:rgba(255,255,255,.1)}
+.app.dark .hx-sit-meta{color:#7f9aac}
+
+.app.dark .hx-numbers{--ac:#fb923c;--ac2:#fbbf24;background:radial-gradient(circle at 12% 18%,rgba(251,146,60,.2),transparent 40%),radial-gradient(circle at 90% 85%,rgba(250,204,21,.12),transparent 42%),linear-gradient(180deg,#1b1209,#241708)}
+.app.dark .hx-number{background:rgba(255,255,255,.05);border-color:rgba(251,191,36,.18);box-shadow:none}
+.app.dark .hx-number strong{color:#fff;text-shadow:0 0 28px color-mix(in srgb,var(--c) 40%,transparent)}
+.app.dark .hx-number b{color:#f1e4d3}.app.dark .hx-number small{color:#b59f86}
+
+.app.dark .hx-showcase{--ac:#2dd4bf;--ac2:#22d3ee;background:radial-gradient(circle at 85% 10%,rgba(45,212,191,.2),transparent 45%),radial-gradient(circle at 5% 90%,rgba(56,189,248,.14),transparent 42%),linear-gradient(180deg,#062a2c,#08333a)}
+.app.dark .hx-showcase .showcase{box-shadow:0 30px 70px rgba(0,0,0,.45)}
+
+.app.dark .hx-families{--ac:#c084fc;--ac2:#f472b6;background:radial-gradient(circle at 92% 8%,rgba(167,139,250,.24),transparent 42%),radial-gradient(circle at 8% 92%,rgba(244,114,182,.14),transparent 42%),linear-gradient(180deg,#1a1033,#221445)}
+.app.dark .hx-family{background:rgba(255,255,255,.05);border-color:rgba(190,160,255,.18);border-bottom:3px solid var(--c);box-shadow:none}
+.app.dark .hx-family:hover{box-shadow:0 22px 44px rgba(0,0,0,.45),0 0 30px color-mix(in srgb,var(--c) 25%,transparent)}
+.app.dark .hx-family strong{color:#fff}.app.dark .hx-family b{color:#ece3ff}.app.dark .hx-family small{color:#a99cc8}
+.app.dark .hx-family-bar{background:rgba(255,255,255,.1)}
+
+.app.dark .hx-insights{--ac:#fb7185;--ac2:#fb923c;background:radial-gradient(circle at 10% 10%,rgba(251,113,133,.2),transparent 42%),radial-gradient(circle at 92% 90%,rgba(251,146,60,.14),transparent 44%),linear-gradient(180deg,#2a0f1a,#33141f)}
+.app.dark .hx-insight{background:rgba(255,255,255,.05);border-color:rgba(255,160,170,.16);border-left:4px solid var(--c);box-shadow:none}
+.app.dark .hx-insight strong{color:#fff}.app.dark .hx-insight strong em{color:#c9a3ac}
+.app.dark .hx-insight b{color:#fbe5e8}.app.dark .hx-insight span,.app.dark .hx-insight p{color:#c9a3ac}
+.app.dark .hx-insight small{filter:none}
+.app.dark .hx-stack div{background:color-mix(in srgb,var(--c) 26%,#2a0f1a);border-color:color-mix(in srgb,var(--c) 60%,transparent)}
+.app.dark .hx-stack b{color:#fff}.app.dark .hx-stack span{color:#f0d5da}
+
+.app.dark .hx-teaser{--ac:#60a5fa;--ac2:#22d3ee;background:radial-gradient(circle at 50% 0%,rgba(96,165,250,.22),transparent 55%),linear-gradient(180deg,#081a36,#0b2447)}
+.app.dark .hx-minimap{background:#0d2331;color:#fff;border-color:rgba(120,170,230,.22);box-shadow:0 14px 34px rgba(0,0,0,.4)}
+
+/* ---------- À PROPOS — mode clair ---------- */
+.app.light .about-page{background:#f3f8fb;color:#16303f}
+.app.light .about-hero{background:radial-gradient(900px 500px at 80% 0%,rgba(14,165,233,.16),transparent 60%),linear-gradient(180deg,#e3f1f9,#f3f8fb)}
+.app.light .about-hero-grid{opacity:.5;background-image:linear-gradient(rgba(14,116,144,.1) 1px,transparent 1px),linear-gradient(90deg,rgba(14,116,144,.1) 1px,transparent 1px)}
+.app.light .about-hero h1{color:#0b2a3b}
+.app.light .about-hero h1 span{background:linear-gradient(100deg,#0891b2,#7c3aed);-webkit-background-clip:text;background-clip:text;color:transparent}
+.app.light .about-hero-copy>p{color:#4a6779}
+.app.light .about-chips span{border-color:rgba(8,145,178,.35);background:rgba(8,145,178,.08);color:#0e7490}
+.app.light .about-hero-stats div{background:#fff;border-color:#dbe8ef;box-shadow:0 8px 24px rgba(15,60,90,.08)}
+.app.light .about-hero-stats strong{color:#0b2a3b}.app.light .about-hero-stats span{color:#6b8596}
+.app.light .ab-section{border-top-color:#dbe8ef}
+.app.light .ab-label{color:#0e7490}.app.light .ab-label b{color:#0b2a3b}
+.app.light .ab-section.warn .ab-label{color:#b45309}
+.app.light .ab-content{color:#35566a}
+.app.light .ab-content blockquote{background:#fff;color:#0f2a3a;border-left-color:#0891b2;box-shadow:0 8px 24px rgba(15,60,90,.07)}
+.app.light .ab-lead b,.app.light .ab-step b,.app.light .ab-row b,.app.light .ab-families div b{color:#0b2a3b}
+.app.light .ab-objectifs li,.app.light .ab-families div,.app.light .ab-list li{background:#fff;border-color:#dbe8ef;color:#1f3b4d;box-shadow:0 6px 18px rgba(15,60,90,.06)}
+.app.light .ab-objectifs li p{color:#1f3b4d}
+.app.light .ab-objectifs li span{background:#0891b2;color:#fff}
+.app.light .ab-step-n{background:rgba(8,145,178,.12);color:#0e7490;border-color:rgba(8,145,178,.4)}
+.app.light .ab-step::before{background:rgba(8,145,178,.25)}
+.app.light .ab-table{background:#fff;border-color:#dbe8ef}
+.app.light .ab-row{color:#35566a;border-bottom-color:#eef3f6}
+.app.light .ab-row.head{background:#e6f4f8;color:#0e7490}
+.app.light .ab-list li{border-color:rgba(217,119,6,.28)}
+.app.light .ab-list.good li{border-color:rgba(13,148,136,.3)}
+.app.light .ab-credit{background:linear-gradient(135deg,#e3f1f9,#fff);border-color:#dbe8ef}
+.app.light .ab-credit b{color:#0e7490}.app.light .ab-credit span{color:#0b2a3b}.app.light .ab-credit small{color:#6b8596}
+
+/* ---------- DONNÉES — mode clair (le mode sombre est le style d'origine « Centre de données ») ---------- */
+.app.light .dn{background:#eef4f8}
+.app.light .dh-hero{background:
+  linear-gradient(90deg,rgba(255,255,255,.86) 0%,rgba(255,255,255,.52) 48%,rgba(255,255,255,0) 100%),
+  linear-gradient(180deg,rgba(238,244,248,0) 55%,#eef4f8 100%),
+  url("/images/donnees-hero.jpg") center 40%/cover no-repeat,#cfe3ee}
+.app.light .dh-hero:before{opacity:.35;background:linear-gradient(rgba(14,116,144,.08) 1px,transparent 1px) 0 0/54px 54px,linear-gradient(90deg,rgba(14,116,144,.08) 1px,transparent 1px) 0 0/54px 54px}
+.app.light .dh-eyebrow{color:#0f766e}
+.app.light .dh-hero h1{color:#0b2a3b;text-shadow:none}
+.app.light .dh-hero p{color:#2f5266;text-shadow:none}
+.app.light .dh-kpi{background:rgba(255,255,255,.92);border-color:#dbe8ef;box-shadow:0 8px 22px rgba(15,60,90,.1)}
+.app.light .dh-kpi strong{color:#0b2a3b}.app.light .dh-kpi small{color:#5a7384}
+.app.light .dh-panel{background:#fff;border-color:#dbe8ef;box-shadow:0 8px 26px rgba(15,60,90,.09)}
+.app.light .dh-panel h3,.app.light .dh-panel h4{color:#0b2a3b}
+.app.light .dh-cats>button{color:#35566a}.app.light .dh-cats>button b{color:#6b8596}
+.app.light .dh-cats>button:hover{background:#eef5f9}
+.app.light .dh-cats>button.on{background:color-mix(in srgb,var(--c) 14%,#fff);border-color:color-mix(in srgb,var(--c) 55%,transparent);color:#0b2a3b}
+.app.light .dh-bulk{background:#f1f7fb;border-color:#dbe8ef}.app.light .dh-bulk b{color:#0b2a3b}.app.light .dh-bulk p{color:#4a6779}
+.app.light .dh-bulk>div,.app.light .dh-bulk small{color:#0369a1}
+.app.light .dh-map,.app.light .dh-leaflet{background:#dfe9ef;border-color:#dbe8ef}
+.app.light .dh-map .leaflet-control-attribution{background:rgba(255,255,255,.8);color:#35566a}.app.light .dh-map .leaflet-control-attribution a{color:#0369a1}
+.app.light .dh-map .leaflet-tooltip{background:#fff;color:#0b2a3b;border-color:#dbe8ef}
+.app.light .dh-legend{background:rgba(255,255,255,.95);border-color:#dbe8ef;color:#1f3b4d}
+.app.light .dh-legend>b,.app.light .dh-lg>span{color:#0b2a3b}.app.light .dh-lg small{color:#6b8596}
+.app.light .dh-lgbtn{background:rgba(255,255,255,.95);border-color:#c5d6e0;color:#0b2a3b}
+.app.light .dh-layers,.app.light .dh-bases{background:#fff;border-color:#dbe8ef;color:#35566a}
+.app.light .dh-layers b,.app.light .dh-bases b{color:#0b2a3b}
+.app.light .dh-bases button{border-color:#c5d6e0;color:#35566a}.app.light .dh-bases button.on{background:#0369a1;border-color:#0369a1;color:#fff}
+.app.light .dh-layers input,.app.light .dh-op input{accent-color:#0369a1}
+.app.light .dh-load{color:#0369a1}
+.app.light .dh-donut-c strong{color:#0b2a3b}.app.light .dh-donut-c small{color:#6b8596}
+.app.light .dh-pie-leg{color:#35566a}.app.light .dh-pie-leg b{color:#0b2a3b}
+.app.light .dh-fmt{color:#35566a}.app.light .dh-fmt>div{background:#e6eff4}.app.light .dh-fmt b{color:#0b2a3b}
+.app.light .dh-note{color:#6b8596}
+.app.light .dh-updates>h3{color:#0b2a3b}
+.app.light .dh-updates>div{background:#fff;border-color:#dbe8ef;box-shadow:0 8px 26px rgba(15,60,90,.07)}
+.app.light .dh-upd b{color:#0b2a3b}.app.light .dh-upd small{color:#4a6779}.app.light .dh-upd em{color:#0369a1}
+
+/* ---------- HISTOIRE — mode sombre : le hero reste la scène du soir, les chapitres passent en teintes profondes ---------- */
+.app.dark .hs{--ink:#e6eef4;--mut:#a4b8c6;background:#0b1118;color:var(--ink)}
+.app.dark .hs-kicker{color:#fbbf24}
+.app.dark .hs-nav{background:rgba(11,17,24,.92);border-bottom-color:rgba(251,191,36,.2)}
+.app.dark .hs-nav button:hover{background:rgba(255,255,255,.07)}
+.app.dark .hs-nav button b{background:rgba(251,191,36,.16);color:#fbbf24}
+.app.dark .hs-nav button.on{background:#fbbf24;color:#2a1800;border-color:#fbbf24}.app.dark .hs-nav button.on b{background:#451a03;color:#fde68a}
+.app.dark .hs-chead h2,.app.dark .hs-maphead h3,.app.dark .hs-prose b,.app.dark .hs-fact b,.app.dark .hs-legend b,.app.dark .hs-map-tip b,.app.dark .hs-pop-head h3,.app.dark .hs-people h3,.app.dark .hs-person b,.app.dark .hs-step4 h4,.app.dark .hs-railhub-card h4,.app.dark .hs-fr-card h4,.app.dark .hs-sources h3,.app.dark .hs-sources h4,.app.dark .hs-map-side h4,.app.dark .hs-src-grid strong{color:#f4f8fb}
+.app.dark .hs-prose p,.app.dark .hs-inst-card p,.app.dark .hs-mech-card p,.app.dark .hs-fr-card p,.app.dark .hs-fr-more,.app.dark .hs-heritage ul,.app.dark .hs-sources ul{color:#c4d3de}
+.app.dark .hs-src{background:rgba(255,255,255,.1);color:#c4d3de}
+.app.dark .hs-fact,.app.dark .hs-step4,.app.dark .hs-railhub,.app.dark .hs-map,.app.dark .hs-inst-card,.app.dark .hs-pop,.app.dark .hs-commune,.app.dark .hs-heritage,.app.dark .hs-person,.app.dark .hs-mech-card,.app.dark .hs-warn,.app.dark .hs-src-grid a,.app.dark .hs-legend,.app.dark .hs-map-tip,.app.dark .hs-map-modes button,.app.dark .hs-toggle button{background:#15202b;border-color:rgba(255,255,255,.1);box-shadow:0 14px 36px rgba(0,0,0,.4)}
+.app.dark .hs-fact{border-left-color:var(--c)}.app.dark .hs-step4{border-top-color:#38bdf8}.app.dark .hs-mech-card{border-top-color:var(--c)}.app.dark .hs-commune{border-left-color:var(--c)}
+.app.dark .hs-railhub-card{background:#0f1923}
+.app.dark .hs-map-stage{background:#e8e2d3}
+.app.dark .hs-map-modes button.on,.app.dark .hs-toggle button.on{background:#fbbf24;color:#2a1800;border-color:#fbbf24}
+.app.dark .hs-map-note{background:rgba(251,146,60,.12);color:#fdba74}
+.app.dark .hs-people{background:rgba(255,255,255,.05)}
+.app.dark .hs-pop-facts div{background:rgba(45,212,191,.1)}.app.dark .hs-pop-facts b{color:#5eead4}
+.app.dark .hs-c1{background:radial-gradient(circle at 90% 10%,rgba(132,204,22,.14),transparent 42%),linear-gradient(180deg,#0f1c12,#13241a)}
+.app.dark .hs-c2{background:radial-gradient(circle at 8% 20%,rgba(56,189,248,.16),transparent 42%),linear-gradient(180deg,#0a1a2a,#0d2236)}
+.app.dark .hs-c3{background:radial-gradient(circle at 92% 8%,rgba(251,146,60,.16),transparent 44%),linear-gradient(180deg,#26150c,#321b0f)}
+.app.dark .hs-c5{background:radial-gradient(circle at 10% 10%,rgba(167,139,250,.2),transparent 44%),linear-gradient(180deg,#171230,#1e1840)}
+.app.dark .hs-c6{background:radial-gradient(circle at 90% 90%,rgba(45,212,191,.16),transparent 42%),linear-gradient(180deg,#0a1f1d,#0d2926)}
+.app.dark .hs-c7{background:radial-gradient(circle at 50% 0%,rgba(250,204,21,.16),transparent 52%),linear-gradient(180deg,#241d0a,#2d2410)}
+.app.dark .hs-frise-sec{background:#0e161e}
+.app.dark .hs-chips button{background:#15202b}.app.dark .hs-chips button.on{color:#0b1118}.app.dark .hs-chips button.on i{background:#0b1118}
+.app.dark .hs-fr-card{background:#15202b;border-color:rgba(255,255,255,.08);border-left-color:var(--c)}
+.app.dark .hs-fr-dot{background:#0e161e}
+.app.dark .hs-fr-item.open .hs-fr-more{border-top-color:rgba(255,255,255,.2)}
+.app.dark .hs-lecture{background:radial-gradient(circle at 12% 12%,rgba(244,114,182,.16),transparent 42%),linear-gradient(180deg,#26111f,#2e1527)}
+.app.dark .hs-warn{border-color:#fb7185}.app.dark .hs-warn p{color:#fecdd3}
+.app.dark .hs-sources{background:#0a1016;border-top-color:rgba(255,255,255,.08)}
+.app.dark .hs-src-grid a:hover{border-color:#fbbf24}.app.dark .hs-src-grid a>b{background:#fbbf24;color:#2a1800}
+.app.dark .hs-sources ul a{color:#7dd3fc}
+
+/* ---------- CARTOTHÈQUE — mode sombre ---------- */
+.app.dark .ct{background:#07131d;color:#e6f1f8}
+.app.dark .ct-hero{background:linear-gradient(90deg,rgba(4,16,26,.92) 0,rgba(4,16,26,.6) 30%,rgba(4,16,26,.1) 62%),url("/images/cartotheque-hero.jpg") center 38%/cover no-repeat,#0b2a3b}
+.app.dark .ct-hero::after{background:linear-gradient(180deg,rgba(7,19,29,0),#07131d)}
+.app.dark .ct-eyebrow{color:#5eead4}.app.dark .ct-eyebrow i{background:#2dd4bf}
+.app.dark .ct-hero h1,.app.dark .ct-live h2,.app.dark .ct-block-head h2{color:#fff}
+.app.dark .ct-hero p{color:#cfe2ee}
+.app.dark .ct-live h2 span{background:linear-gradient(100deg,#22d3ee,#c084fc 60%,#fb923c);-webkit-background-clip:text;background-clip:text;color:transparent}
+.app.dark .ct-block-head h2 small,.app.dark .ct-sub{color:#8aa2b3}
+.app.dark .ct-link{color:#5eead4}
+.app.dark .ct-tile,.app.dark .ct-live,.app.dark .ct-kpis>div,.app.dark .ct-fcard,.app.dark .ct-mini,.app.dark .ct-panel,.app.dark .ct-actions button{background:#0c2130;border-color:rgba(120,190,215,.18);box-shadow:0 10px 30px rgba(0,0,0,.35);color:#e6f1f8}
+.app.dark .ct-tile.on{border-color:var(--accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 40%,transparent),0 14px 34px rgba(0,0,0,.4)}
+.app.dark .ct-tile{color:#e6f1f8}.app.dark .ct-tile small{color:#8aa2b3}
+.app.dark .ct-tile-ic{background:color-mix(in srgb,var(--accent) 22%,transparent);color:var(--accent)}
+.app.dark .ct-live-copy>p{color:#9fb5c4}
+.app.dark .ct-counters strong,.app.dark .ct-kpis b,.app.dark .ct-fcard h3,.app.dark .ct-mini-body h3,.app.dark .ct-panel>header h2,.app.dark .ct-actions b{color:#fff}
+.app.dark .ct-counters span,.app.dark .ct-kpis small,.app.dark .ct-kpis span,.app.dark .ct-actions small,.app.dark .ct-mini-row small{color:#8aa2b3}
+.app.dark .ct .showcase{background:#0a1c2a;border-color:rgba(120,190,215,.18)}
+.app.dark .ct .showcase-title,.app.dark .ct .sc-stats b{color:#fff}.app.dark .ct .showcase-info p{color:#9fb5c4}
+.app.dark .ct .showcase-dots button{background:rgba(255,255,255,.22)}.app.dark .ct .showcase-dots button.on{background:var(--accent)}
+.app.dark .ct-tag{background:color-mix(in srgb,var(--accent) 22%,transparent);color:color-mix(in srgb,var(--accent) 60%,#fff)}
+.app.dark .ct-mini-act{border-top-color:rgba(255,255,255,.08)}
+.app.dark .ct-mini-act button{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14);color:#7dd3fc}
+.app.dark .ct-mini-stats span{background:rgba(255,255,255,.06);color:#8aa2b3}.app.dark .ct-mini-stats b{color:#fff}
+.app.dark .ct-search,.app.dark .ct-pills button,.app.dark .ct-cmp select{background:#0c2130;border-color:rgba(120,190,215,.22);color:#cfe2ee}
+.app.dark .ct-search input{color:#e6f1f8}
+.app.dark .ct-pills button.on{background:color-mix(in srgb,var(--accent) 22%,#0c2130);color:#fff}
+.app.dark .ct-empty{color:#8aa2b3}
+.app.dark .ct .map-card{background:#0c2130;border-color:rgba(120,190,215,.18);box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.app.dark .ct .map-card-scale{background:rgba(7,19,29,.9);color:var(--accent);box-shadow:none}
+.app.dark .ct .map-card-body h3{color:#fff}.app.dark .ct .map-card-body>p{color:#9fb5c4}
+.app.dark .ct .map-card-family{color:var(--accent)}
+.app.dark .ct .map-card-meta{border-top-color:rgba(255,255,255,.08)}.app.dark .ct .map-card-meta dt{color:#6f8799}.app.dark .ct .map-card-meta dd{color:#cfe2ee}
+.app.dark .ct .map-legend-scale{color:#9fb5c4}
+.app.dark .ct .mc-btn{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.16);color:#cfe3ee}
+.app.dark .ct .mc-btn:hover:not(:disabled){background:rgba(255,255,255,.1);color:#fff}
+.app.dark .ct .mc-btn.primary{background:var(--accent);color:#03202c}
+.app.dark .cs{background:#0a1c2a;border-color:rgba(120,190,215,.16)}
+.app.dark .cs-kpis>div{background:#0f2536;border-color:rgba(120,190,215,.14)}
+.app.dark .cs-kpis b,.app.dark .cs-chips b,.app.dark .cs-classes>div,.app.dark .cs-tb p{color:#e6f1f8}
+.app.dark .cs-kpis small,.app.dark .cs-title,.app.dark .cs-axis,.app.dark .cs-kpis b i,.app.dark .cs-classes em small,.app.dark .cs-foot{color:#8aa2b3}
+.app.dark .cs-title.up{color:#5eead4}.app.dark .cs-title.down{color:#fdba74}
+.app.dark .cs-chips span{background:#0f2536;border-color:rgba(120,190,215,.14);color:#9fb5c4}
+.app.dark .cs-classes>div,.app.dark .cs-tb p{border-bottom-color:rgba(255,255,255,.07)}
+.app.dark .cs-toggle{border-color:rgba(120,190,215,.35);color:#5eead4}.app.dark .cs-toggle:hover{background:rgba(94,234,212,.1)}
+.app.dark .cs-bar{background:rgba(255,255,255,.1)}
+.app.dark .cs-communes-row,.app.dark .cs-communes>div,.app.dark .cs-communes-row b,.app.dark .cs-communes>div b{color:#e6f1f8}
+.app.dark .ct-table-wrap{border-color:rgba(120,190,215,.16)}.app.dark .ct-table-wrap th{background:#12293b;color:#9fb5c4}.app.dark .ct-table-wrap td{border-top-color:rgba(255,255,255,.06);color:#cfe2ee}
+.app.dark .ct-table-wrap code{background:rgba(255,255,255,.08)}
+.app.dark .ct-panel>header>button,.app.dark .ct-panel>header>div>button:last-child{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14);color:#cfe2ee}
+.app.dark .ct-note{background:rgba(45,212,191,.1);border-color:rgba(45,212,191,.25);color:#7ee8d8}
+.app.dark .ct-kpis>div{border-top-color:var(--accent,#2dd4bf)}
+
+/* ---------- ANALYSE / ADMINISTRATION — mode sombre : photo assombrie + panneaux lisibles ---------- */
+.app.dark .tool-page{background:
+  linear-gradient(180deg,rgba(3,13,22,.80) 0%,rgba(3,13,22,.84) 40%,rgba(3,12,20,.93) 100%),
+  url("/thies-hero.png") center 42% / cover fixed no-repeat}
+.app.dark .tool-page .config-panel,.app.dark .tool-page .result-panel,.app.dark .tool-page .upload-card,.app.dark .tool-page .admin-grid>*,.app.dark .tool-page .empty-panel{
+  background:rgba(8,26,40,.9);border-color:rgba(120,190,215,.2);backdrop-filter:blur(10px);box-shadow:0 18px 45px rgba(0,0,0,.35)}
+.app.dark .tool-heading p{color:#b4c8d6;font-size:12.5px}
+.app.dark .tool-page .config-panel label,.app.dark .tool-page .upload-card p,.app.dark .tool-page .empty-panel p{color:#a9bfcd}

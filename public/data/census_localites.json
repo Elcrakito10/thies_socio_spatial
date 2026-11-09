@@ -1,0 +1,647 @@
+[
+ {
+  "localite": "DIAKHAO",
+  "commune": "THIES NORD",
+  "menages": 1608,
+  "population": 11501,
+  "statut": "apparie",
+  "polygone": "Diakhao",
+  "pop_polygone": 11501
+ },
+ {
+  "localite": "DIAKHAO THIALY",
+  "commune": "THIES NORD",
+  "menages": 1263,
+  "population": 10970,
+  "statut": "apparie",
+  "polygone": "Diakhao Thialy",
+  "pop_polygone": 10970
+ },
+ {
+  "localite": "DIASSAP",
+  "commune": "THIES NORD",
+  "menages": 124,
+  "population": 929,
+  "statut": "apparie",
+  "polygone": "Diassap",
+  "pop_polygone": 929
+ },
+ {
+  "localite": "EPT (ECOLE POLYTECHNIQUE DE THIES)",
+  "commune": "THIES NORD",
+  "menages": 108,
+  "population": 1873,
+  "statut": "apparie",
+  "polygone": "Ept (Ecole Polytechnique De Thies)",
+  "pop_polygone": 1873
+ },
+ {
+  "localite": "ESCALE NORD",
+  "commune": "THIES NORD",
+  "menages": 91,
+  "population": 668,
+  "statut": "apparie",
+  "polygone": "Escale Nord",
+  "pop_polygone": 668
+ },
+ {
+  "localite": "KAWSARA FALL",
+  "commune": "THIES NORD",
+  "menages": 1185,
+  "population": 11439,
+  "statut": "apparie",
+  "polygone": "Kawsara Fall",
+  "pop_polygone": 11439
+ },
+ {
+  "localite": "KEUR CHEIKH",
+  "commune": "THIES NORD",
+  "menages": 216,
+  "population": 2096,
+  "statut": "apparie",
+  "polygone": "Keur Cheikh",
+  "pop_polygone": 2096
+ },
+ {
+  "localite": "KEUR ISSA (BAMBARA)",
+  "commune": "THIES NORD",
+  "menages": 444,
+  "population": 3259,
+  "statut": "apparie",
+  "polygone": "Keur  Issa (Bambara)",
+  "pop_polygone": 3259
+ },
+ {
+  "localite": "KEUR MAME ELHADJI",
+  "commune": "THIES NORD",
+  "menages": 588,
+  "population": 5477,
+  "statut": "apparie",
+  "polygone": "Keur Mame Elhadji",
+  "pop_polygone": 5477
+ },
+ {
+  "localite": "KEUR MBAYE DIAKHATE",
+  "commune": "THIES NORD",
+  "menages": 10,
+  "population": 177,
+  "statut": "apparie",
+  "polygone": "Keur Mbaye Diakhate",
+  "pop_polygone": 177
+ },
+ {
+  "localite": "KEUR MODOU NDIAYE",
+  "commune": "THIES NORD",
+  "menages": 81,
+  "population": 802,
+  "statut": "apparie",
+  "polygone": "Keur Modou Ndiaye",
+  "pop_polygone": 802
+ },
+ {
+  "localite": "KEUR SAIB NDOYE",
+  "commune": "THIES NORD",
+  "menages": 321,
+  "population": 3051,
+  "statut": "apparie",
+  "polygone": "Keur Saib Ndoye",
+  "pop_polygone": 3051
+ },
+ {
+  "localite": "MEDINA FALL",
+  "commune": "THIES NORD",
+  "menages": 3799,
+  "population": 37280,
+  "statut": "apparie",
+  "polygone": "Medina Fall",
+  "pop_polygone": 37280
+ },
+ {
+  "localite": "NGUINTH",
+  "commune": "THIES NORD",
+  "menages": 1444,
+  "population": 11675,
+  "statut": "apparie",
+  "polygone": "Nguinth",
+  "pop_polygone": 11675
+ },
+ {
+  "localite": "POGNIENE",
+  "commune": "THIES NORD",
+  "menages": 164,
+  "population": 1338,
+  "statut": "apparie",
+  "polygone": "Pogniene",
+  "pop_polygone": 1338
+ },
+ {
+  "localite": "TAKHIKAO",
+  "commune": "THIES NORD",
+  "menages": 897,
+  "population": 8938,
+  "statut": "apparie",
+  "polygone": "Takhikao",
+  "pop_polygone": 8938
+ },
+ {
+  "localite": "THIALY (GRAND THIALY)",
+  "commune": "THIES NORD",
+  "menages": 1577,
+  "population": 11493,
+  "statut": "apparie",
+  "polygone": "Thialy (Petit Thialy)",
+  "pop_polygone": 11493,
+  "validation": "confirmé par les auteurs"
+ },
+ {
+  "localite": "THIAPONG",
+  "commune": "THIES NORD",
+  "menages": 390,
+  "population": 2659,
+  "statut": "apparie",
+  "polygone": "Thiapong",
+  "pop_polygone": 2659
+ },
+ {
+  "localite": "THIONAKH",
+  "commune": "THIES NORD",
+  "menages": 352,
+  "population": 2404,
+  "statut": "apparie",
+  "polygone": "Thionakh",
+  "pop_polygone": 2404
+ },
+ {
+  "localite": "ZAC DE THIES",
+  "commune": "THIES NORD",
+  "menages": 217,
+  "population": 1306,
+  "statut": "apparie",
+  "polygone": "Zac De Thies",
+  "pop_polygone": 1306
+ },
+ {
+  "localite": "MEDINA FALL EXTENSION",
+  "commune": "THIES NORD",
+  "menages": 854,
+  "population": 6803,
+  "statut": "sans_polygone"
+ },
+ {
+  "localite": "AYNINA FALL",
+  "commune": "THIES EST",
+  "menages": 139,
+  "population": 1248,
+  "statut": "apparie",
+  "polygone": "Aynina Fall",
+  "pop_polygone": 1248
+ },
+ {
+  "localite": "CITE BALABEY (CITE 1)",
+  "commune": "THIES EST",
+  "menages": 158,
+  "population": 1331,
+  "statut": "apparie",
+  "polygone": "Cite Balabey (Cite I)",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 1331
+ },
+ {
+  "localite": "CITE LAMY",
+  "commune": "THIES EST",
+  "menages": 1554,
+  "population": 14977,
+  "statut": "apparie",
+  "polygone": "Cite Lamy",
+  "pop_polygone": 14977
+ },
+ {
+  "localite": "CITE MAURICE PILLOT",
+  "commune": "THIES EST",
+  "menages": 116,
+  "population": 970,
+  "statut": "apparie",
+  "polygone": "Cite Maurice Pillot",
+  "pop_polygone": 970
+ },
+ {
+  "localite": "CITE OUVRIERE",
+  "commune": "THIES EST",
+  "menages": 728,
+  "population": 4978,
+  "statut": "apparie",
+  "polygone": "Cite Ouvriere",
+  "pop_polygone": 4978
+ },
+ {
+  "localite": "CITE SENGHOR 1",
+  "commune": "THIES EST",
+  "menages": 957,
+  "population": 9260,
+  "statut": "apparie",
+  "polygone": "Cite Senghor I",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 9260
+ },
+ {
+  "localite": "CITE SENGHOR 2",
+  "commune": "THIES EST",
+  "menages": 1108,
+  "population": 10804,
+  "statut": "apparie",
+  "polygone": "Cite Senghor Ii",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 10804
+ },
+ {
+  "localite": "DAROU SALAM 1",
+  "commune": "THIES EST",
+  "menages": 1494,
+  "population": 14245,
+  "statut": "apparie",
+  "polygone": "Darou Salam I",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 14245
+ },
+ {
+  "localite": "DAROU SALAM 2",
+  "commune": "THIES EST",
+  "menages": 1007,
+  "population": 9385,
+  "statut": "apparie",
+  "polygone": "Darou Salam Ii",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 9385
+ },
+ {
+  "localite": "DIAMAGUENE",
+  "commune": "THIES EST",
+  "menages": 1256,
+  "population": 12076,
+  "statut": "apparie",
+  "polygone": "Diamaguene",
+  "pop_polygone": 12076
+ },
+ {
+  "localite": "DVF (AIGLON)",
+  "commune": "THIES EST",
+  "menages": 394,
+  "population": 3023,
+  "statut": "apparie",
+  "polygone": "Dvf (Aiglon)",
+  "pop_polygone": 3023
+ },
+ {
+  "localite": "DVF (BAYAL)",
+  "commune": "THIES EST",
+  "menages": 128,
+  "population": 974,
+  "statut": "apparie",
+  "polygone": "Dvf (Bayal)",
+  "pop_polygone": 974
+ },
+ {
+  "localite": "DVF (CITE NIAKH)",
+  "commune": "THIES EST",
+  "menages": 574,
+  "population": 5689,
+  "statut": "apparie",
+  "polygone": "Dvf (Cite Niakh)",
+  "pop_polygone": 5689
+ },
+ {
+  "localite": "DVF (PINTHIE ALI NGUER)",
+  "commune": "THIES EST",
+  "menages": 133,
+  "population": 947,
+  "statut": "apparie",
+  "polygone": "Dvf (Pinthie Ali Nguer)",
+  "pop_polygone": 947
+ },
+ {
+  "localite": "FAHU 2",
+  "commune": "THIES EST",
+  "menages": 2144,
+  "population": 13983,
+  "statut": "apparie",
+  "polygone": "Fahu Ii",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 13983
+ },
+ {
+  "localite": "HERSENT 1",
+  "commune": "THIES EST",
+  "menages": 1327,
+  "population": 11759,
+  "statut": "apparie",
+  "polygone": "Hersent",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 11759
+ },
+ {
+  "localite": "HERSENT 2",
+  "commune": "THIES EST",
+  "menages": 496,
+  "population": 3283,
+  "statut": "apparie",
+  "polygone": "Hersent Ii",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 3283
+ },
+ {
+  "localite": "KEUR SERIGNE ABDOULAYE YAKHINE",
+  "commune": "THIES EST",
+  "menages": 1185,
+  "population": 10383,
+  "statut": "apparie",
+  "polygone": "Keur Serigne Abdoulaye Yakhine",
+  "pop_polygone": 10383
+ },
+ {
+  "localite": "MBAMBARA",
+  "commune": "THIES EST",
+  "menages": 524,
+  "population": 4119,
+  "statut": "apparie",
+  "polygone": "Mbambara",
+  "pop_polygone": 4119
+ },
+ {
+  "localite": "PARCELLES ASSAINIES UNITE 1",
+  "commune": "THIES EST",
+  "menages": 615,
+  "population": 4611,
+  "statut": "apparie",
+  "polygone": "Parcelles Assainies",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 9412
+ },
+ {
+  "localite": "SAMPATHE",
+  "commune": "THIES EST",
+  "menages": 1006,
+  "population": 8666,
+  "statut": "apparie",
+  "polygone": "Sampathe",
+  "pop_polygone": 8666
+ },
+ {
+  "localite": "SILMANG (KEUR DAGO)",
+  "commune": "THIES EST",
+  "menages": 1449,
+  "population": 11166,
+  "statut": "apparie",
+  "polygone": "Silmang (Keur Dago)",
+  "pop_polygone": 11166
+ },
+ {
+  "localite": "DIOUNG",
+  "commune": "THIES EST",
+  "menages": 202,
+  "population": 2224,
+  "statut": "apparie",
+  "polygone": "Dioung",
+  "pop_polygone": 2224,
+  "validation": "confirmé par les auteurs",
+  "commune_corrigee": "THIES OUEST"
+ },
+ {
+  "localite": "FAHU 1",
+  "commune": "THIES EST",
+  "menages": 218,
+  "population": 1354,
+  "statut": "apparie",
+  "polygone": "Fahu I",
+  "pop_polygone": 1354,
+  "validation": "confirmé par les auteurs",
+  "commune_corrigee": "THIES OUEST"
+ },
+ {
+  "localite": "PARCELLES ASSAINIES UNITE 2",
+  "commune": "THIES EST",
+  "menages": 518,
+  "population": 3723,
+  "statut": "apparie",
+  "polygone": "Parcelles Assainies",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 9412
+ },
+ {
+  "localite": "PARCELLES ASSAINIES UNITE 3",
+  "commune": "THIES EST",
+  "menages": 171,
+  "population": 1078,
+  "statut": "apparie",
+  "polygone": "Parcelles Assainies",
+  "polygone_commune": "Thies Est",
+  "pop_polygone": 9412
+ },
+ {
+  "localite": "CARRIERE",
+  "commune": "THIES OUEST",
+  "menages": 240,
+  "population": 1499,
+  "statut": "apparie",
+  "polygone": "Carriere",
+  "pop_polygone": 1499
+ },
+ {
+  "localite": "CITE MALICK SY",
+  "commune": "THIES OUEST",
+  "menages": 337,
+  "population": 2897,
+  "statut": "apparie",
+  "polygone": "Cite Malick Sy",
+  "pop_polygone": 2897
+ },
+ {
+  "localite": "CITE SOFRACO",
+  "commune": "THIES OUEST",
+  "menages": 210,
+  "population": 1243,
+  "statut": "apparie",
+  "polygone": "Cite Sofraco",
+  "pop_polygone": 1243
+ },
+ {
+  "localite": "DIXIEME",
+  "commune": "THIES OUEST",
+  "menages": 521,
+  "population": 3197,
+  "statut": "apparie",
+  "polygone": "Dixieme",
+  "pop_polygone": 3197
+ },
+ {
+  "localite": "ESCALE SUD",
+  "commune": "THIES OUEST",
+  "menages": 98,
+  "population": 627,
+  "statut": "apparie",
+  "polygone": "Escale Sud",
+  "pop_polygone": 627
+ },
+ {
+  "localite": "GRAND STANDING",
+  "commune": "THIES OUEST",
+  "menages": 1060,
+  "population": 6511,
+  "statut": "apparie",
+  "polygone": "Grand Standing",
+  "pop_polygone": 6511
+ },
+ {
+  "localite": "HLM DIXIEME",
+  "commune": "THIES OUEST",
+  "menages": 115,
+  "population": 887,
+  "statut": "apparie",
+  "polygone": "Hlm Dixieme",
+  "pop_polygone": 887
+ },
+ {
+  "localite": "HLM ROUTE DE DAKAR",
+  "commune": "THIES OUEST",
+  "menages": 219,
+  "population": 1636,
+  "statut": "apparie",
+  "polygone": "Hlm Route De Dakar",
+  "pop_polygone": 1636
+ },
+ {
+  "localite": "HLM ROUTE DE MBOUR",
+  "commune": "THIES OUEST",
+  "menages": 196,
+  "population": 1039,
+  "statut": "apparie",
+  "polygone": "Hlm Route De Mbour",
+  "pop_polygone": 1039
+ },
+ {
+  "localite": "MBOUR 1",
+  "commune": "THIES OUEST",
+  "menages": 1651,
+  "population": 12941,
+  "statut": "apparie",
+  "polygone": "Mbour I",
+  "polygone_commune": "Thies Ouest",
+  "pop_polygone": 12941
+ },
+ {
+  "localite": "MBOUR 2",
+  "commune": "THIES OUEST",
+  "menages": 455,
+  "population": 3056,
+  "statut": "apparie",
+  "polygone": "Mbour Ii",
+  "polygone_commune": "Thies Ouest",
+  "pop_polygone": 3056
+ },
+ {
+  "localite": "MBOUR 3 (AMITIE)",
+  "commune": "THIES OUEST",
+  "menages": 999,
+  "population": 6114,
+  "statut": "apparie",
+  "polygone": "Mbour Iii (Amitie)",
+  "polygone_commune": "Thies Ouest",
+  "pop_polygone": 6114
+ },
+ {
+  "localite": "MBOUR 4",
+  "commune": "THIES OUEST",
+  "menages": 866,
+  "population": 6256,
+  "statut": "apparie",
+  "polygone": "Mbour Iv",
+  "polygone_commune": "Thies Ouest",
+  "pop_polygone": 6256
+ },
+ {
+  "localite": "RANDOULENE NORD",
+  "commune": "THIES OUEST",
+  "menages": 675,
+  "population": 5785,
+  "statut": "apparie",
+  "polygone": "Randoulene Nord",
+  "pop_polygone": 5785
+ },
+ {
+  "localite": "RANDOULENE SUD (GRAND THIES)",
+  "commune": "THIES OUEST",
+  "menages": 1456,
+  "population": 12158,
+  "statut": "apparie",
+  "polygone": "Randoulene Sud (Grand Thies)",
+  "pop_polygone": 12158
+ },
+ {
+  "localite": "ROUTE DE DAKAR 2",
+  "commune": "THIES OUEST",
+  "menages": 263,
+  "population": 1674,
+  "statut": "apparie",
+  "polygone": "Route De Dakar 2",
+  "pop_polygone": 1674
+ },
+ {
+  "localite": "SOM",
+  "commune": "THIES OUEST",
+  "menages": 1089,
+  "population": 8781,
+  "statut": "apparie",
+  "polygone": "Som",
+  "pop_polygone": 8781
+ },
+ {
+  "localite": "CITE OUSMANE NGOM",
+  "commune": "THIES OUEST",
+  "menages": 287,
+  "population": 2299,
+  "statut": "apparie",
+  "polygone": "Som Cite Ousmane Ngom",
+  "polygone_commune": "Thies Ouest",
+  "pop_polygone": 2299
+ },
+ {
+  "localite": "SUD STADE",
+  "commune": "THIES OUEST",
+  "menages": 279,
+  "population": 1739,
+  "statut": "apparie",
+  "polygone": "Sud Stade",
+  "pop_polygone": 1739
+ },
+ {
+  "localite": "THIES NONE",
+  "commune": "THIES OUEST",
+  "menages": 213,
+  "population": 1730,
+  "statut": "apparie",
+  "polygone": "Thies None",
+  "pop_polygone": 1730
+ },
+ {
+  "localite": "WANGO",
+  "commune": "THIES OUEST",
+  "menages": 94,
+  "population": 812,
+  "statut": "apparie",
+  "polygone": "Wango",
+  "pop_polygone": 812
+ },
+ {
+  "localite": "ROUTE DE DAKAR 1",
+  "commune": "THIES OUEST",
+  "menages": 562,
+  "population": 3711,
+  "statut": "sans_polygone"
+ },
+ {
+  "localite": "ZONE INDUSTRIELLE",
+  "commune": "THIES OUEST",
+  "menages": 362,
+  "population": 2267,
+  "statut": "sans_polygone"
+ }
+]

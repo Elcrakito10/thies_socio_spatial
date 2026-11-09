@@ -1,0 +1,28 @@
+{
+  "annee": 2023,
+  "localites_recensees": 70,
+  "population": 391253,
+  "menages": 47581,
+  "hommes": 195085,
+  "femmes": 196168,
+  "par_commune": {
+    "THIES EST": {
+      "population": 166256,
+      "menages": 19601,
+      "hommes": 82838,
+      "femmes": 83418
+    },
+    "THIES NORD": {
+      "population": 136138,
+      "menages": 15733,
+      "hommes": 68385,
+      "femmes": 67753
+    },
+    "THIES OUEST": {
+      "population": 88859,
+      "menages": 12247,
+      "hommes": 43862,
+      "femmes": 44997
+    }
+  }
+}

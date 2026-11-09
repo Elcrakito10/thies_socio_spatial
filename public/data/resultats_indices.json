@@ -1,0 +1,883 @@
+{
+ "indices": [
+  {
+   "dimension": "Socio-économique",
+   "indicateur": "Niveau d’instruction (indice 0–1)",
+   "unite": "65 quartiers",
+   "gini": 0.33406315205454584,
+   "gini_pond": 0.4041172468519394,
+   "theil": 0.188943997565985,
+   "D": 0.19390693053377822,
+   "IS": "0,071 à 0,212 selon le niveau",
+   "H": 0.019004304584987034,
+   "moran": 0.41431162532725396,
+   "p": 0.001,
+   "lisa": "8 HH / 10 LL / 1 HL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Socio-économique",
+   "indicateur": "Niveau de richesse matérielle (indice 0–1)",
+   "unite": "65 quartiers",
+   "gini": 0.26023561217875946,
+   "gini_pond": 0.21258775462794394,
+   "theil": 0.1203577175227861,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.21218230937209234,
+   "p": 0.004,
+   "lisa": "5 HH / 5 LL / 1 HL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Offre d’équipements (indicateur synthétique)",
+   "unite": "65 quartiers",
+   "gini": 0.40435420367844815,
+   "gini_pond": 0.30418826286533646,
+   "theil": 0.2853289119413744,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.4421982463509774,
+   "p": 0.001,
+   "lisa": "12 HH / 11 LL / 1 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité santé (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.5768933977249214,
+   "gini_pond": null,
+   "theil": 0.6068535745915916,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.2602379012375605,
+   "p": 0.003,
+   "lisa": "6 HH / 5 LL / 2 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité éducation (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.43334693855301937,
+   "gini_pond": null,
+   "theil": 0.3244983318654519,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.3284110662923016,
+   "p": 0.001,
+   "lisa": "10 HH / 11 LL / 3 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité commerce (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.4355858933138004,
+   "gini_pond": null,
+   "theil": 0.3282890220728959,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.3632350633103269,
+   "p": 0.001,
+   "lisa": "6 HH / 10 LL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité sport (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.7203806392950883,
+   "gini_pond": null,
+   "theil": 1.0291653444273148,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": -0.015597213553066477,
+   "p": 0.461,
+   "lisa": "2 HH / 4 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité transport (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.844514446721675,
+   "gini_pond": null,
+   "theil": 1.5816065416085956,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.03527239755956082,
+   "p": 0.235,
+   "lisa": "2 HH / 6 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité banque (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.9331312724205398,
+   "gini_pond": null,
+   "theil": 2.4267068470664106,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.1501850587667038,
+   "p": 0.014,
+   "lisa": "4 HH / 3 LH / 1 HL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité assurance (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.8352814884065691,
+   "gini_pond": null,
+   "theil": 1.537003629115713,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.13341354228861416,
+   "p": 0.04,
+   "lisa": "4 HH / 1 LL / 5 LH / 1 HL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Infrastructures",
+   "indicateur": "Densité religion (nb/km²)",
+   "unite": "65 quartiers",
+   "gini": 0.4424623371224805,
+   "gini_pond": null,
+   "theil": 0.33292800714415155,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.3322201365264355,
+   "p": 0.001,
+   "lisa": "6 HH / 8 LL / 3 LH / 1 HL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Accessibilité",
+   "indicateur": "Accessibilité globale moyenne par quartier",
+   "unite": "65 quartiers",
+   "gini": 0.04183282616238665,
+   "gini_pond": null,
+   "theil": 0.005022114328152015,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.5056145044319295,
+   "p": 0.001,
+   "lisa": "17 HH / 10 LL / 1 HL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Accessibilité",
+   "indicateur": "Distance moyenne à la route (m)",
+   "unite": "65 quartiers",
+   "gini": 0.7630629435078037,
+   "gini_pond": null,
+   "theil": 1.214556116389893,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.27240969668743065,
+   "p": 0.005,
+   "lisa": "1 HH / 7 LL / 2 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Mobilité",
+   "indicateur": "Flux émis",
+   "unite": "65 quartiers",
+   "gini": 0.468402409467043,
+   "gini_pond": null,
+   "theil": 0.36859160922726886,
+   "D": 0.40641337024024565,
+   "IS": null,
+   "H": 0.22959805899963573,
+   "moran": 0.1276954645609236,
+   "p": 0.029,
+   "lisa": "4 HH / 3 LL / 6 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Mobilité",
+   "indicateur": "Flux reçus",
+   "unite": "65 quartiers",
+   "gini": 0.6937808115586962,
+   "gini_pond": null,
+   "theil": 1.1468951069669864,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.021668944774410708,
+   "p": 0.13,
+   "lisa": "2 HH / 2 LL / 3 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Mobilité",
+   "indicateur": "Volume des échanges",
+   "unite": "65 quartiers",
+   "gini": 0.5629725677767432,
+   "gini_pond": null,
+   "theil": 0.6576115164498361,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.07357278438174958,
+   "p": 0.053,
+   "lisa": "3 HH / 3 LL / 2 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Mobilité",
+   "indicateur": "Indice d’attractivité (0–1)",
+   "unite": "65 quartiers",
+   "gini": 0.26297588085362816,
+   "gini_pond": null,
+   "theil": 0.11875878034504306,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": 0.04340001901973913,
+   "p": 0.198,
+   "lisa": "3 HH / 3 LL / 2 HL",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  },
+  {
+   "dimension": "Mobilité",
+   "indicateur": "Solde des échanges",
+   "unite": "65 quartiers",
+   "gini": null,
+   "gini_pond": null,
+   "theil": null,
+   "D": null,
+   "IS": null,
+   "H": null,
+   "moran": -0.028708969392508325,
+   "p": 0.269,
+   "lisa": "1 HH / 6 LL / 1 LH",
+   "classeur": "Base finale des 65 quartiers (traitements des auteurs)"
+  }
+ ],
+ "notes_indices": [
+  "Accessibilité : l’indice de Moran des quartiers (0,51) est une mesure d’organisation spatiale ; sur la grille de 200 m, il dépasse 0,99 par construction (surface de distances) et ne doit pas être lu comme une ségrégation.",
+  "Mobilité : D compare la répartition des flux émis et reçus ; avec deux groupes, IS = D ; H mesure la spécialisation émetteur/récepteur des quartiers.",
+  "Instruction : D compare le groupe faible (sans niveau, préscolaire, primaire) et le groupe élevé (secondaire, supérieur) ; H porte sur les 6 niveaux. Les effectifs par niveau sont reconstitués à partir de parts arrondies.",
+  "Les indicateurs signés (solde des échanges) n’ont ni Gini ni Theil."
+ ],
+ "correlations": [
+  {
+   "a": "Offre d’équipements",
+   "b": "Accessibilité globale",
+   "n": 65,
+   "rho": 0.8300262237762237,
+   "p": 1.2674268087687765e-17,
+   "pfdr": 1.5209121705225318e-16,
+   "sig": true
+  },
+  {
+   "a": "Instruction",
+   "b": "Richesse matérielle",
+   "n": 65,
+   "rho": 0.5924388111888113,
+   "p": 2.00609453774054e-07,
+   "pfdr": 1.203656722644324e-06,
+   "sig": true
+  },
+  {
+   "a": "Offre d’équipements",
+   "b": "Distance à la route",
+   "n": 65,
+   "rho": -0.49803321678321677,
+   "p": 2.42725680101463e-05,
+   "pfdr": 9.70902720405852e-05,
+   "sig": true
+  },
+  {
+   "a": "Instruction",
+   "b": "Accessibilité globale",
+   "n": 65,
+   "rho": 0.22390734265734266,
+   "p": 0.07297095543940214,
+   "pfdr": 0.10945643315910322,
+   "sig": false
+  },
+  {
+   "a": "Attractivité",
+   "b": "Instruction",
+   "n": 65,
+   "rho": 0.26241258741258744,
+   "p": 0.03470802916489977,
+   "pfdr": 0.08329926999575944,
+   "sig": false
+  },
+  {
+   "a": "Attractivité",
+   "b": "Offre d’équipements",
+   "n": 65,
+   "rho": 0.25048076923076923,
+   "p": 0.044171210156405016,
+   "pfdr": 0.08834242031281003,
+   "sig": false
+  },
+  {
+   "a": "Attractivité",
+   "b": "Accessibilité globale",
+   "n": 65,
+   "rho": 0.23868006993006993,
+   "p": 0.05552618887936903,
+   "pfdr": 0.09518775236463262,
+   "sig": false
+  },
+  {
+   "a": "Attractivité",
+   "b": "Richesse matérielle",
+   "n": 65,
+   "rho": 0.21018356643356645,
+   "p": 0.09285938896351345,
+   "pfdr": 0.12381251861801792,
+   "sig": false
+  },
+  {
+   "a": "Richesse matérielle",
+   "b": "Accessibilité globale",
+   "n": 65,
+   "rho": 0.05515734265734265,
+   "p": 0.6625489249574708,
+   "pfdr": 0.7227806454081499,
+   "sig": false
+  },
+  {
+   "a": "Richesse matérielle",
+   "b": "Offre d’équipements",
+   "n": 65,
+   "rho": -0.09340034965034964,
+   "p": 0.4592838413231287,
+   "pfdr": 0.5511406095877545,
+   "sig": false
+  },
+  {
+   "a": "Instruction",
+   "b": "Offre d’équipements",
+   "n": 65,
+   "rho": 0.01486013986013986,
+   "p": 0.9064732773129193,
+   "pfdr": 0.9064732773129193,
+   "sig": false
+  },
+  {
+   "a": "Richesse matérielle",
+   "b": "Réception de déplacements par habitant (LQ)",
+   "n": 65,
+   "rho": 0.2948863636363636,
+   "p": 0.017097265802695986,
+   "pfdr": 0.05129179740808796,
+   "sig": false
+  }
+ ],
+ "corrections": [
+  {
+   "element": "Gini — niveau d’instruction",
+   "ancien": "0,327",
+   "final": "0,334",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Moran I — niveau d’instruction",
+   "ancien": "0,407",
+   "final": "0,414",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Dissimilarité D — instruction",
+   "ancien": "0,194",
+   "final": "0,194",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Gini — richesse matérielle",
+   "ancien": "0,256",
+   "final": "0,260",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Moran I — richesse matérielle",
+   "ancien": "0,209",
+   "final": "0,212",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Gini — offre d’équipements",
+   "ancien": "0,410",
+   "final": "0,404",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Moran I — offre d’équipements",
+   "ancien": "0,446",
+   "final": "0,442",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Moran I — accessibilité globale",
+   "ancien": "0,550",
+   "final": "0,506",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Gini — flux émis",
+   "ancien": "0,482",
+   "final": "0,468",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Moran I — flux émis",
+   "ancien": "0,118",
+   "final": "0,128",
+   "cause": "Regroupement de trois polygones sans population avec leur quartier officiel (68 → 65 quartiers)"
+  },
+  {
+   "element": "Nombre de quartiers par classe (1 à 5)",
+   "ancien": "14 / 20 / 19 / 11 / 4",
+   "final": "13 / 19 / 19 / 11 / 3",
+   "cause": "Nguinth Extension, Diakhao Souf et HLM Thialy rejoignent Nguinth, Diakhao et Thialy"
+  }
+ ],
+ "classification": {
+  "noms": [
+   "Résidentiels aisés et instruits",
+   "Centraux et péricentraux équipés",
+   "Populaires denses, peu instruits",
+   "Intermédiaires sous-équipés",
+   "Périphérie peu urbanisée"
+  ],
+  "profils": [
+   {
+    "indicateur": "Nombre de quartiers",
+    "valeurs": [
+     13,
+     19,
+     19,
+     11,
+     3,
+     65
+    ]
+   },
+   {
+    "indicateur": "Population",
+    "valeurs": [
+     32265,
+     95667,
+     188154,
+     57869,
+     4517,
+     378472
+    ]
+   },
+   {
+    "indicateur": "Part de la population",
+    "valeurs": [
+     0.0853,
+     0.2528,
+     0.4971,
+     0.1529,
+     0.0119,
+     1.0
+    ]
+   },
+   {
+    "indicateur": "Instruction",
+    "valeurs": [
+     0.6410638828916927,
+     0.40759790891690034,
+     0.1427601186306295,
+     0.38744919767134667,
+     0.6395675556105599,
+     0.38744919767134667
+    ]
+   },
+   {
+    "indicateur": "Richesse matérielle",
+    "valeurs": [
+     0.41564359207321205,
+     0.25105413194519133,
+     0.17944951502422296,
+     0.3013730291026847,
+     0.38804971244150516,
+     0.2634503164179349
+    ]
+   },
+   {
+    "indicateur": "Diversité scolaire (entropie locale)",
+    "valeurs": [
+     1.6854263040594462,
+     1.5740175865971429,
+     1.4802093231064668,
+     1.6233247774834156,
+     1.6488272945421159,
+     1.579048192597357
+    ]
+   },
+   {
+    "indicateur": "LQ supérieur",
+    "valeurs": [
+     2.135556651833066,
+     0.9432807210736373,
+     0.6426931446830181,
+     1.3423102332453187,
+     2.55639002277939,
+     1.0347478615367
+    ]
+   },
+   {
+    "indicateur": "LQ sans niveau",
+    "valeurs": [
+     0.5875645437899655,
+     0.7347748775235802,
+     1.1707601891000228,
+     0.9055088709226233,
+     0.5649405761290676,
+     0.8476904611419231
+    ]
+   },
+   {
+    "indicateur": "Offre d’équipements",
+    "valeurs": [
+     0.23531425577027468,
+     0.35910297660658624,
+     0.22632040698230044,
+     0.06797165589402888,
+     0.0007432646052424301,
+     0.22458394867648807
+    ]
+   },
+   {
+    "indicateur": "Densité de population (hab./km²)",
+    "valeurs": [
+     4447.570332480818,
+     15274.193548387097,
+     18660.68515497553,
+     3156.6265060240967,
+     193.77262853005067,
+     9476.489028213166
+    ]
+   },
+   {
+    "indicateur": "Distance à la route (m)",
+    "valeurs": [
+     33.335821557863774,
+     14.162518211108285,
+     17.099868550075747,
+     145.1452143481457,
+     1298.8006492787522,
+     19.384433859494354
+    ]
+   },
+   {
+    "indicateur": "Part de cellules LL",
+    "valeurs": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.42452830188679247,
+     0.0
+    ]
+   },
+   {
+    "indicateur": "Indice d’attractivité",
+    "valeurs": [
+     -0.014925373134328358,
+     0.059047619047619064,
+     -0.34909596662030595,
+     0.011992516035379736,
+     0.2440944881889764,
+     -0.10722795869737883
+    ]
+   },
+   {
+    "indicateur": "Volume des échanges",
+    "valeurs": [
+     777.947305936073,
+     558.9545098039216,
+     535.817088607595,
+     929.2054503464205,
+     755.9473170731708,
+     683.0142999006952
+    ]
+   }
+  ],
+  "descriptions": [
+   "Classe 1 — Résidentiels aisés et instruits (Grand Standing, Mbour Iii (Amitie), Dixieme, Mbour Ii, Thiapong, Sud Stade…) : niveaux d’instruction et de richesse matérielle les plus élevés, fort quotient de localisation du supérieur, densité modérée ; surtout à Thiès Ouest.",
+   "Classe 2 — Centraux et péricentraux équipés (Mbour I, Randoulene Sud (Grand Thies), Diakhao, Thialy (Petit Thialy), Parcelles Assainies, Som…) : offre d’équipements la plus élevée, très bonne accessibilité, quartiers denses au profil social intermédiaire.",
+   "Classe 3 — Populaires denses, peu instruits (Medina Fall, Cite Lamy, Darou Salam I, Diamaguene, Hersent, Kawsara Fall…) : près de la moitié des habitants ; densités maximales, instruction et richesse matérielle les plus faibles, surreprésentation des personnes sans niveau ; quartiers émetteurs de déplacements.",
+   "Classe 4 — Intermédiaires sous-équipés (Fahu Ii, Nguinth, Silmang (Keur Dago), Mbour Iv, Cite Ouvriere, Cite Malick Sy…) : profil social proche de la moyenne mais offre d’équipements très faible, densité basse, plus éloignés de la route.",
+   "Classe 5 — Périphérie peu urbanisée (Ept (Ecole Polytechnique De Thies), Pogniene, Zac De Thies) : grandes emprises très peu peuplées (1 % des habitants), très éloignées du réseau routier et presque sans équipement ; instruction élevée liée à l’École polytechnique et à des lotissements récents."
+  ],
+  "acp": [
+   {
+    "cp": "CP1",
+    "vp": 4.434522003340776,
+    "pct": 0.492724667037864,
+    "cum": 0.492724667037864
+   },
+   {
+    "cp": "CP2",
+    "vp": 1.8798010250369868,
+    "pct": 0.2088667805596652,
+    "cum": 0.7015914475975291
+   },
+   {
+    "cp": "CP3",
+    "vp": 0.8679465555944307,
+    "pct": 0.09643850617715896,
+    "cum": 0.7980299537746881
+   },
+   {
+    "cp": "CP4",
+    "vp": 0.6852341055578437,
+    "pct": 0.07613712283976042,
+    "cum": 0.8741670766144485
+   },
+   {
+    "cp": "CP5",
+    "vp": 0.3707316449312945,
+    "pct": 0.04119240499236606,
+    "cum": 0.9153594816068146
+   },
+   {
+    "cp": "CP6",
+    "vp": 0.30315791334355763,
+    "pct": 0.03368421259372863,
+    "cum": 0.9490436942005432
+   },
+   {
+    "cp": "CP7",
+    "vp": 0.2865726750991391,
+    "pct": 0.03184140834434879,
+    "cum": 0.9808851025448919
+   },
+   {
+    "cp": "CP8",
+    "vp": 0.13533785574320245,
+    "pct": 0.015037539527022494,
+    "cum": 0.9959226420719145
+   },
+   {
+    "cp": "CP9",
+    "vp": 0.03669622135276891,
+    "pct": 0.004077357928085435,
+    "cum": 0.9999999999999998
+   }
+  ],
+  "charges": [
+   {
+    "indicateur": "Instruction",
+    "c1": 0.8797633766092687,
+    "c2": 0.38291312843759123,
+    "contrib1": 0.17453596988353118,
+    "contrib2": 0.07799892753382147,
+    "cos2": 0.9206060627528052
+   },
+   {
+    "indicateur": "Richesse matérielle",
+    "c1": 0.6460366221068258,
+    "c2": 0.17657848628316408,
+    "contrib1": 0.09411686688864646,
+    "contrib2": 0.01658684158736432,
+    "cos2": 0.4485432789212512
+   },
+   {
+    "indicateur": "Diversité scolaire (entropie locale)",
+    "c1": 0.8375476940174102,
+    "c2": 0.38741559018344807,
+    "contrib1": 0.15818754292467424,
+    "contrib2": 0.07984400344405398,
+    "cos2": 0.8515769792710708
+   },
+   {
+    "indicateur": "LQ supérieur",
+    "c1": 0.8947338109249441,
+    "c2": 0.10445150027507148,
+    "contrib1": 0.18052646752213095,
+    "contrib2": 0.0058038674117110835,
+    "cos2": 0.8114587083219869
+   },
+   {
+    "indicateur": "LQ sans niveau",
+    "c1": -0.7437707128194508,
+    "c2": -0.4029124137526775,
+    "contrib1": 0.12474735108568659,
+    "contrib2": 0.08635935984385083,
+    "cos2": 0.7155332864039627
+   },
+   {
+    "indicateur": "Offre d’équipements",
+    "c1": -0.24983434204356214,
+    "c2": 0.6649661883264192,
+    "contrib1": 0.014075293440266437,
+    "contrib2": 0.23522704037714126,
+    "cos2": 0.5045972300817064
+   },
+   {
+    "indicateur": "Distance à la route (log)",
+    "c1": 0.5652061009492129,
+    "c2": -0.6470846379415002,
+    "contrib1": 0.07203886604002553,
+    "contrib2": 0.2227461965830366,
+    "cos2": 0.7381764652100942
+   },
+   {
+    "indicateur": "Part de cellules LL",
+    "c1": 0.5527228633511893,
+    "c2": -0.5326320979262875,
+    "contrib1": 0.06889188134391601,
+    "contrib2": 0.15091860679019278,
+    "cos2": 0.5891995154124958
+   },
+   {
+    "indicateur": "Densité de population (log)",
+    "c1": -0.707508150705584,
+    "c2": 0.48380132150248345,
+    "contrib1": 0.11287976087112195,
+    "contrib2": 0.1245151564288268,
+    "cos2": 0.7346315020023848
+   }
+  ],
+  "choix_k": [
+   {
+    "k": 2,
+    "inertie": 217.144713254993,
+    "silhouette": 0.4266547060077469,
+    "ch": 56.07178471470137,
+    "rand": 0.8788345033176267,
+    "eff": "39 / 26"
+   },
+   {
+    "k": 3,
+    "inertie": 146.39513926322218,
+    "silhouette": 0.42291562835681906,
+    "ch": 55.906570181201516,
+    "rand": 0.38353423744837817,
+    "eff": "34 / 28 / 3"
+   },
+   {
+    "k": 4,
+    "inertie": 101.20058258186073,
+    "silhouette": 0.40847622465167954,
+    "ch": 62.1266307990508,
+    "rand": 0.3886493798210958,
+    "eff": "27 / 23 / 12 / 3"
+   },
+   {
+    "k": 5,
+    "inertie": 60.10222789856084,
+    "silhouette": 0.48866511355469217,
+    "ch": 87.42789839541598,
+    "rand": 0.819500520671575,
+    "eff": "19 / 19 / 13 / 11 / 3"
+   },
+   {
+    "k": 6,
+    "inertie": 49.86876126529576,
+    "silhouette": 0.4775488988497443,
+    "ch": 85.31157564876786,
+    "rand": 0.7077147187357455,
+    "eff": "19 / 17 / 13 / 9 / 4 / 3"
+   },
+   {
+    "k": 7,
+    "inertie": 42.87037637495517,
+    "silhouette": 0.43186167598617786,
+    "ch": 82.87493689865519,
+    "rand": 0.745496920259697,
+    "eff": "15 / 14 / 13 / 9 / 7 / 4 / 3"
+   }
+  ],
+  "synthese": [
+   [
+    "Étape",
+    "Résultat"
+   ],
+   [
+    "Indicateurs candidats",
+    "12 (socio-économie, ségrégation, équipements, accessibilité, mobilité, démographie)"
+   ],
+   [
+    "Indicateurs éliminés (filtre KMO / MSA < 0,6)",
+    "Volume des échanges (MSA 0,40), accessibilité globale (0,53), indice d’attractivité (0,59)"
+   ],
+   [
+    "Indicateurs retenus",
+    "9 ; KMO global = 0,74 ; test de Bartlett χ² = 430, ddl = 36, p < 0,001 (mémoire, tableau 3-7)"
+   ],
+   [
+    "ACP",
+    "2 composantes de valeur propre > 1 : CP1 = 49,3 %, CP2 = 20,9 % (70,2 % cumulés) — recalculé ici, identique au mémoire"
+   ],
+   [
+    "Classification",
+    "K-means sur les scores CP1–CP2, k = 5 (silhouette 0,49, Calinski-Harabasz 87,4)"
+   ],
+   [
+    "Robustesse",
+    "Accord avec la classification hiérarchique de Ward : indice de Rand ajusté = 0,82 ; aucun quartier à silhouette négative"
+   ],
+   [
+    "Valeurs manquantes",
+    "Remplacées par la médiane dans la classification : Keur Mbaye Diakhaté (district de recensement absent : instruction, LQ et entropie scolaire)"
+   ]
+  ],
+  "methodologie": [
+   [
+    "Étape",
+    "Méthode"
+   ],
+   [
+    "Standardisation",
+    "Chaque indicateur est centré-réduit : z = (x − moyenne) / écart-type, pour que tous pèsent autant."
+   ],
+   [
+    "Transformations",
+    "Logarithme pour la distance à la route et la densité de population, très asymétriques."
+   ],
+   [
+    "KMO / MSA",
+    "KMO = Σr² / (Σr² + Σa²) avec r = corrélations simples et a = corrélations partielles ; le MSA est le même calcul par variable. Élimination pas à pas de la variable de plus faible MSA tant qu’elle est < 0,6."
+   ],
+   [
+    "Bartlett",
+    "Teste si la matrice de corrélation diffère de l’identité ; p < 0,001, donc l’ACP est justifiée."
+   ],
+   [
+    "ACP",
+    "Sur la matrice de corrélation ; composantes retenues selon le critère de Kaiser (valeur propre > 1)."
+   ],
+   [
+    "K-means",
+    "Sur les scores des quartiers sur CP1 et CP2 ; 100 initialisations ; k choisi par la silhouette et l’indice de Calinski-Harabasz."
+   ],
+   [
+    "Contrôle",
+    "Classification hiérarchique ascendante de Ward sur les mêmes scores ; accord mesuré par l’indice de Rand ajusté."
+   ],
+   [
+    "Précaution",
+    "Quatre des neuf indicateurs retenus viennent des effectifs par niveau d’instruction : la dimension éducative pèse fortement sur CP1. Les valeurs de ce tableau sont des médianes par classe."
+   ]
+  ],
+  "statistique": "médiane"
+ }
+}

@@ -1,0 +1,27 @@
+.eqp{padding:12px 12px 14px;display:flex;flex-direction:column;gap:10px;font-size:12px;line-height:1.45}
+.eqp h3{margin:0;font-size:14px;display:flex;align-items:center;gap:6px}
+.eqp h4{margin:6px 0 2px;font-size:12px;color:var(--gx-acc);text-transform:uppercase;letter-spacing:.05em}
+.eqp small,.eqp .mut{color:var(--gx-mut)}
+.eqp-tabs{display:grid;grid-template-columns:repeat(3,1fr);background:var(--gx-in);border-radius:10px;padding:3px}
+.eqp-tabs button{background:none;border:0;border-radius:8px;padding:6px 4px;font-size:11.5px;font-weight:700;color:var(--gx-mut);cursor:pointer}
+.eqp-tabs button.on{background:#2563eb;color:#fff}
+.eqp-kpis{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.eqp-kpi{background:var(--gx-in);border:1px solid var(--gx-bd);border-radius:10px;padding:7px 9px}
+.eqp-kpi b{display:block;font-size:17px;line-height:1.15}.eqp-kpi small{font-size:10.5px}
+.eqp table{width:100%;border-collapse:collapse;font-size:11px}
+.eqp th{font-weight:700;color:var(--gx-mut);text-align:right;padding:3px 4px;border-bottom:1px solid var(--gx-bd);font-size:10px}
+.eqp th:first-child,.eqp td:first-child{text-align:left}
+.eqp td{padding:3px 4px;text-align:right;border-bottom:1px solid var(--gx-in);font-variant-numeric:tabular-nums}
+.eqp tr.tot td{font-weight:800;border-top:1px solid var(--gx-bd)}
+.eqp-box{background:var(--gx-in);border:1px solid var(--gx-bd);border-radius:10px;padding:8px 10px}
+.eqp-box p{margin:2px 0}
+.eqp-note{font-size:10.5px;color:var(--gx-mut);border-left:3px solid #f59e0b;padding-left:8px}
+.eqp-chip{display:inline-block;border-radius:999px;padding:1px 7px;font-size:10px;font-weight:700;color:#fff;white-space:nowrap}
+.eqp-sc{display:grid;grid-template-columns:1fr auto;gap:2px 8px;align-items:center}
+.eqp-sc label{font-size:11.5px}.eqp-sc small{grid-column:1/-1;margin-top:-2px;font-size:10px}
+.eqp input[type=number]{width:74px;background:var(--gx-in);border:1px solid var(--gx-bd);border-radius:7px;padding:3px 6px;color:inherit;font:inherit;text-align:right}
+.eqp-btn{background:var(--gx-in);border:1px solid var(--gx-bd);border-radius:9px;padding:6px 10px;font-size:11.5px;font-weight:700;color:inherit;cursor:pointer;display:inline-flex;gap:6px;align-items:center;justify-content:center}
+.eqp-btn:hover{border-color:var(--gx-acc)}
+.eqp-row{display:flex;gap:6px;flex-wrap:wrap}
+.eqp-fiche{margin-top:8px;border-top:1px solid var(--gx-bd);padding-top:6px}
+.eqp-fiche .eqp-chip{margin-left:6px}

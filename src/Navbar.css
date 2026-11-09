@@ -1,0 +1,64 @@
+/* ===== Barre de navigation — style "verre" avec icones ===== */
+.navbar{height:92px;padding:0 26px;gap:18px;background:linear-gradient(180deg,rgba(3,8,24,.72),rgba(3,8,24,.28));border-bottom:1px solid rgba(130,160,255,.14);backdrop-filter:blur(14px) saturate(140%)}
+.brand{gap:12px;flex:none}
+.brand-logo{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;color:#7dd3fc;background:radial-gradient(circle at 35% 30%,rgba(56,189,248,.3),rgba(10,24,56,.9));border:1.5px solid rgba(56,189,248,.65);box-shadow:0 0 18px rgba(56,189,248,.35);transition:transform .4s,box-shadow .4s}
+.brand:hover .brand-logo{transform:rotate(12deg) scale(1.05);box-shadow:0 0 26px rgba(56,189,248,.6)}
+.brand-logo svg{width:34px;height:34px}
+.brand-copy strong{font-size:25px;letter-spacing:1.5px;line-height:1}.brand-copy small{margin-top:3px;font-size:15px;font-weight:700;letter-spacing:.6px;color:#38bdf8}
+.brand-sep{width:1px;height:38px;background:rgba(255,255,255,.28);margin:0 6px}
+.brand-tag{font-size:12px;font-weight:600;letter-spacing:1.6px;line-height:1.45;color:#e2ecfa}
+.nav-links{flex:1;justify-content:center;gap:0}
+@media(min-width:901px){
+  .nav-links{flex:0 1 auto;margin:0 auto;padding:8px 10px;gap:2px;background:rgba(10,18,42,.62);border:1px solid rgba(130,160,255,.25);border-radius:20px;backdrop-filter:blur(16px);box-shadow:0 8px 26px rgba(0,0,0,.3)}
+  .nav-links button{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:78px;padding:9px 12px;border-radius:14px;font-size:12px;font-weight:600;color:#cbd8ee;white-space:nowrap;transition:all .25s}
+  .nav-links button svg{width:22px;height:22px;stroke-width:1.7;transition:transform .25s}
+  .nav-links button:hover{background:rgba(255,255,255,.07);color:#fff}.nav-links button:hover svg{transform:translateY(-2px)}
+  .nav-links button.active{color:#67e8f9;background:linear-gradient(180deg,rgba(56,189,248,.22),rgba(56,189,248,.06));box-shadow:inset 0 0 0 1px rgba(56,189,248,.45),0 0 16px rgba(56,189,248,.22)}
+  .nav-links button.active:after{display:none}
+}
+.nav-right{gap:10px;flex:none}
+.nav-search{width:330px;height:46px;gap:10px;padding:0 16px;border-radius:24px;background:rgba(10,18,42,.6);border:1px solid rgba(130,160,255,.3);transition:border-color .25s,box-shadow .25s}
+.nav-search:focus-within{border-color:#38bdf8;box-shadow:0 0 0 3px rgba(56,189,248,.18)}
+.nav-search input{font-size:13px}.nav-search input::placeholder{color:rgba(226,236,250,.7)}.nav-search kbd{font-size:11px;color:#9fb0c8}
+.icon-button{width:46px;height:46px;border-radius:14px;border:1px solid rgba(130,160,255,.28);background:rgba(10,18,42,.6);color:#e2ecfa;transition:transform .2s,box-shadow .2s}
+.icon-button svg{width:21px;height:21px}.icon-button:hover{transform:translateY(-2px);color:#fff}
+.theme-btn.is-dark{background:linear-gradient(135deg,#fbbf24,#f59e0b);border-color:transparent;color:#3b2300;box-shadow:0 4px 16px rgba(245,158,11,.45)}
+.theme-btn.is-dark:hover{color:#3b2300;box-shadow:0 6px 22px rgba(245,158,11,.65)}.theme-btn.is-dark svg{animation:nv-spin 12s linear infinite}
+.theme-btn.is-light{background:linear-gradient(135deg,#6366f1,#4338ca);border-color:transparent;color:#fff}
+@keyframes nv-spin{to{transform:rotate(360deg)}}
+.admin-button{height:46px;gap:9px;padding:0 14px 0 6px;border-radius:26px;font-size:13px;font-weight:600;background:rgba(10,18,42,.6);border:1px solid rgba(130,160,255,.3);transition:transform .2s}
+.admin-button:hover{transform:translateY(-2px)}.admin-button span{width:34px;height:34px;font-size:15px;background:linear-gradient(135deg,#22d3ee,#06b6d4)}
+.notif-wrap{position:relative}
+
+/* clair */
+.app.light .navbar{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.62));border-bottom-color:rgba(40,70,140,.14)}
+.app.light .brand-copy strong,.app.light .brand-tag{color:#0f1d33}.app.light .brand-copy small{color:#0284c7}.app.light .brand-sep{background:rgba(15,29,51,.25)}
+.app.light .brand-logo{color:#0369a1;background:radial-gradient(circle at 35% 30%,#e0f2fe,#bae6fd);border-color:#0ea5e9;box-shadow:0 0 14px rgba(14,165,233,.3)}
+.app.light .brand-logo svg path:nth-of-type(2){fill:#e0f2fe}
+@media(min-width:901px){
+  .app.light .nav-links{background:rgba(255,255,255,.78);border-color:rgba(40,70,140,.2);box-shadow:0 8px 22px rgba(30,60,120,.14)}
+  .app.light .nav-links button{color:#33465a}.app.light .nav-links button:hover{background:rgba(15,29,51,.06);color:#0f1d33}
+  .app.light .nav-links button.active{color:#0369a1;background:linear-gradient(180deg,rgba(14,165,233,.2),rgba(14,165,233,.05));box-shadow:inset 0 0 0 1px rgba(14,165,233,.5)}
+}
+.app.light .nav-search,.app.light .icon-button,.app.light .admin-button{background:rgba(255,255,255,.82);border-color:rgba(40,70,140,.22);color:#0f1d33}
+.app.light .nav-search input::placeholder{color:#64748b}.app.light .nav-search kbd{color:#64748b}
+.app.light .theme-btn.is-light{color:#fff;background:linear-gradient(135deg,#6366f1,#4338ca)}
+
+/* adaptation */
+@media(max-width:1800px){.brand-tag{display:none}.brand-sep{display:none}.nav-search{width:290px}}
+@media(max-width:1560px){.nav-search{width:230px}}
+@media(max-width:1380px){.nav-links button{min-width:68px;padding:8px 8px;font-size:11px}.nav-search{width:190px}.nav-search kbd{display:none}.brand-copy small{font-size:13px}.admin-button{font-size:12px}}
+@media(max-width:1180px){.navbar{padding:0 14px;gap:10px}.nav-links button{min-width:0;padding:8px 6px}.nav-links button span{font-size:10px}.nav-search{display:none}.admin-button b{display:none}}
+@media(max-width:900px){.navbar{height:76px}.brand-logo{width:44px;height:44px}.nav-links{background:rgba(3,10,28,.97)}.nav-links button{flex-direction:row;gap:12px}.nav-links button svg{width:20px;height:20px}.app.light .nav-links{background:rgba(255,255,255,.98)}}
+@media(max-width:600px){.brand-copy small{display:block;font-size:12px}.brand-copy strong{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.theme-btn.is-dark svg{animation:none}}
+
+/* Auteurs du projet (remplacent le bouton Administration) */
+.team-avatars{display:flex;align-items:center;padding:4px 6px 4px 4px;border-radius:30px;background:rgba(10,18,42,.6);border:1px solid rgba(130,160,255,.3)}
+.team-avatar{width:44px;height:44px;border-radius:50%;padding:0;border:2.5px solid #22d3ee;background:#0b1530;overflow:hidden;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.4);transition:transform .25s,box-shadow .25s,border-color .25s}
+.team-avatar+.team-avatar{margin-left:-10px;border-color:#a78bfa}
+.team-avatar img{display:block;width:100%;height:100%;object-fit:cover}
+.team-avatar:hover{transform:translateY(-3px) scale(1.1);z-index:2;box-shadow:0 8px 20px rgba(34,211,238,.4)}
+.app.light .team-avatars{background:rgba(255,255,255,.82);border-color:rgba(40,70,140,.22)}
+.app.light .team-avatar{border-color:#0891b2}.app.light .team-avatar+.team-avatar{border-color:#7c3aed}
+@media(max-width:1180px){.team-avatar{width:38px;height:38px}}
